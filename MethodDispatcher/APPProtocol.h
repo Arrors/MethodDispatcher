@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface APPProtocolDispatcher : NSProxy<APPProtocol>
 
-- (instancetype)initWithContainer: (NSArray<id<APPProtocol>> *)container;
+- (instancetype)initWithImplementers: (NSArray<id<APPProtocol>> *)implementers;
 
 @end
 

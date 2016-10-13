@@ -20,7 +20,7 @@
     Person  *p = [[Person   alloc] init];
     Dog     *d = [[Dog      alloc] init];
     
-    APPProtocolDispatcher *dispatcher = [[APPProtocolDispatcher alloc] initWithContainer:@[p, d]];
+    APPProtocolDispatcher *dispatcher = [[APPProtocolDispatcher alloc] initWithImplementers:@[p, d]];
     
     [dispatcher sayHallo];
     [dispatcher sayBye];
